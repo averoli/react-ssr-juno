@@ -1,0 +1,40 @@
+h1 {
+  font-weight: normal;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+
+.colContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 1rem;
+}
+
+.text {
+  text-align: center;
+}
+a {
+  margin-left: 0;
+}
+
+.darkBackground {
+  display: flex;
+  background-color: #1d263b;
+  width: 100%;
+}
+
+.darkBackground h3 {
+  color: white;
+  margin-bottom: 0;
+}
+
+.lightBackground {
+  display: flex;
+  background-color: #8ecdde;
+  width: 100%;
+}
+
+.test {
+color: white
+}
