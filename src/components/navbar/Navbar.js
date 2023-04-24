@@ -16,7 +16,7 @@ const Navbar = () => {
           {pages.map((page, index) => {
             return (
               <li key={index}>
-                <a href="#">{page}</a>
+                <button>{page}</button>
               </li>
             );
           })}
